@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223C00E41EA853C4008E1CAF /* color-converter in CopyFiles */ = {isa = PBXBuildFile; fileRef = 227AE8881EA8518000DD1264 /* color-converter */; };
+		223C00EA1EA85D78008E1CAF /* ColorConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223C00E81EA85D78008E1CAF /* ColorConverter.cpp */; };
+		227AE88C1EA8518000DD1264 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227AE88B1EA8518000DD1264 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		223C00E31EA853A3008E1CAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PROJECT_DIR)/$(CONFIGURATION)";
+			dstSubfolderSpec = 0;
+			files = (
+				223C00E41EA853C4008E1CAF /* color-converter in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		223C00E51EA85575008E1CAF /* opencv.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = opencv.xcconfig; sourceTree = "<group>"; };
+		223C00E81EA85D78008E1CAF /* ColorConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorConverter.cpp; sourceTree = "<group>"; };
+		223C00E91EA85D78008E1CAF /* ColorConverter.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ColorConverter.hxx; sourceTree = "<group>"; };
+		223C00EB1EA89D27008E1CAF /* PortablePixmap.hxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PortablePixmap.hxx; sourceTree = "<group>"; };
+		227AE8881EA8518000DD1264 /* color-converter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "color-converter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227AE88B1EA8518000DD1264 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		22923CA61EB0357600AC8E5A /* PortablePixmapNV21.hxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PortablePixmapNV21.hxx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227AE8851EA8518000DD1264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223C00E61EA85581008E1CAF /* ConfigSet */ = {
+			isa = PBXGroup;
+			children = (
+				223C00E51EA85575008E1CAF /* opencv.xcconfig */,
+			);
+			name = ConfigSet;
+			sourceTree = "<group>";
+		};
+		227AE87F1EA8518000DD1264 = {
+			isa = PBXGroup;
+			children = (
+				227AE88A1EA8518000DD1264 /* color-converter */,
+				223C00E61EA85581008E1CAF /* ConfigSet */,
+				227AE8891EA8518000DD1264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227AE8891EA8518000DD1264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227AE8881EA8518000DD1264 /* color-converter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227AE88A1EA8518000DD1264 /* color-converter */ = {
+			isa = PBXGroup;
+			children = (
+				223C00EB1EA89D27008E1CAF /* PortablePixmap.hxx */,
+				22923CA61EB0357600AC8E5A /* PortablePixmapNV21.hxx */,
+				223C00E91EA85D78008E1CAF /* ColorConverter.hxx */,
+				223C00E81EA85D78008E1CAF /* ColorConverter.cpp */,
+				227AE88B1EA8518000DD1264 /* main.cpp */,
+			);
+			path = "color-converter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227AE8871EA8518000DD1264 /* color-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227AE88F1EA8518000DD1264 /* Build configuration list for PBXNativeTarget "color-converter" */;
+			buildPhases = (
+				223C00E71EA85AA9008E1CAF /* ShellScript */,
+				227AE8841EA8518000DD1264 /* Sources */,
+				227AE8851EA8518000DD1264 /* Frameworks */,
+				223C00E31EA853A3008E1CAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "color-converter";
+			productName = "color-converter";
+			productReference = 227AE8881EA8518000DD1264 /* color-converter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227AE8801EA8518000DD1264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Toshiyuki Terashita";
+				TargetAttributes = {
+					227AE8871EA8518000DD1264 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = E6M9PFC2G9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 227AE8831EA8518000DD1264 /* Build configuration list for PBXProject "color-converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227AE87F1EA8518000DD1264;
+			productRefGroup = 227AE8891EA8518000DD1264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227AE8871EA8518000DD1264 /* color-converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223C00E71EA85AA9008E1CAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if pkg-config --exists opencv; then\necho \"//AUTO GENERATED FILE\" > ${PROJECT_DIR}/opencv.xcconfig\necho \"OTHER_CFLAGS=-Wno-documentation $(pkg-config --cflags opencv)\" >> ${PROJECT_DIR}/opencv.xcconfig\necho \"OTHER_LDFLAGS=$(pkg-config --libs opencv)\" >> ${PROJECT_DIR}/opencv.xcconfig\nelse\necho \"openCV is not installed.\"\nexit 1\nfi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227AE8841EA8518000DD1264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223C00EA1EA85D78008E1CAF /* ColorConverter.cpp in Sources */,
+				227AE88C1EA8518000DD1264 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		227AE88D1EA8518000DD1264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		227AE88E1EA8518000DD1264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		227AE8901EA8518000DD1264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223C00E51EA85575008E1CAF /* opencv.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E6M9PFC2G9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		227AE8911EA8518000DD1264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223C00E51EA85575008E1CAF /* opencv.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E6M9PFC2G9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227AE8831EA8518000DD1264 /* Build configuration list for PBXProject "color-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AE88D1EA8518000DD1264 /* Debug */,
+				227AE88E1EA8518000DD1264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227AE88F1EA8518000DD1264 /* Build configuration list for PBXNativeTarget "color-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AE8901EA8518000DD1264 /* Debug */,
+				227AE8911EA8518000DD1264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227AE8801EA8518000DD1264 /* Project object */;
+}
