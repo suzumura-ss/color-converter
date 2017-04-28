@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22180ED31EB3305F00D58989 /* ColorSpaces.hxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ColorSpaces.hxx; sourceTree = "<group>"; };
 		223C00E51EA85575008E1CAF /* opencv.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = opencv.xcconfig; sourceTree = "<group>"; };
 		223C00E81EA85D78008E1CAF /* ColorConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorConverter.cpp; sourceTree = "<group>"; };
 		223C00E91EA85D78008E1CAF /* ColorConverter.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ColorConverter.hxx; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 			children = (
 				223C00EB1EA89D27008E1CAF /* PortablePixmap.hxx */,
 				22923CA61EB0357600AC8E5A /* PortablePixmapNV21.hxx */,
+				22180ED31EB3305F00D58989 /* ColorSpaces.hxx */,
 				223C00E91EA85D78008E1CAF /* ColorConverter.hxx */,
 				223C00E81EA85D78008E1CAF /* ColorConverter.cpp */,
 				227AE88B1EA8518000DD1264 /* main.cpp */,
