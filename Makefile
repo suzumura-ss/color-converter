@@ -1,3 +1,4 @@
+PKG_CONFIG_PATH=/usr/local/opt/opencv3/lib/pkgconfig
 OUTDIR=Release
 TARGET=$(OUTDIR)/color-converter
 SRC=color-converter/ColorConverter.cpp color-converter/main.cpp
