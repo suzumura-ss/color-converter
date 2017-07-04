@@ -1,6 +1,28 @@
 # color-converter
 RGB/YUV/NV21 Color converter
 
+
+## File formats
+
+### Supported formats
+
+* PNG (RGB)
+* JPEG (RGB)
+* PPM (YUV444)
+* NV21 (YUV420,SemiPlanar/Y+VU)
+
+
+### NV21 file format
+
+It is similar to PPM(P6) file format.
+
+```
+N2 <width> <height> 255\n
+<pixel data of Y, width * height bytes>
+<pixel data of UV, width/2 * height/2 * 2 bytes>
+```
+
+
 ## How to use
 
 ### build
@@ -22,7 +44,7 @@ $ color-converter -toYUV input.png output.png
 #=> output[R] for Y, [G] for U, [B] for V.
 ```
 
-* RGB to NV21(YUV420,SemiPlanar,Y+VU)
+* RGB to NV21
 ```
 $ color-converter input.png output.nv21
 ```
